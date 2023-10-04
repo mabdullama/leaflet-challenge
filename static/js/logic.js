@@ -2,7 +2,7 @@
 let earthquakeDataUrl = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson';
 
 // Create the map centered around the  CA United States
-let map = L.map('map').setView([36.778259, 119.417931], 3);
+let map = L.map('map').setView([36.778259, -119.417931], 3);
 
 // Add the base layer (OpenStreetMap) to the map
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
